@@ -1,213 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vinyas Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinyas Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <nav>
-    <div class="nav-container">
-      <div class="nav-links">
-        <a href="#" class="nav-link active" data-page="home">HOME</a>
-        <a href="#" class="nav-link" data-page="resume">RESUME</a>
-        <a href="#" class="nav-link" data-page="biodata">BIODATA</a>
-        <div class="theme-toggle" id="themeToggle"></div>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-links">
+          <a href="#" class="nav-link active" data-page="home">HOME</a>
+          <a href="#" class="nav-link" data-page="resume">RESUME</a>
+          <a href="#" class="nav-link" data-page="biodata">BIODATA</a>
+          <div class="theme-toggle" id="themeToggle"></div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <main>
-   
-    <section id="home" class="page active">
-      <div class="hero">
-        <h1>Sai Vinyas BS</h1>
-        <p class="subtitle">UnderGraduate | Student | Developer (soon..!)</p>
+    <main>
+      <section id="home" class="page active">
+        <div class="hero">
+          <h1>Sai Vinyas BS</h1>
+          <p class="subtitle">UnderGraduate | Student | Developer (soon..!)</p>
+          <div class="glass-card">
+            <p>
+              "Passionate about creating elegant solutions to complex problems.
+              He specializes in building responsive, user-centric applications
+              that make a difference. His work combines technical expertise with
+              creative innovation to deliver exceptional digital experiences."
+              <br /><br /><i>- Someone</i>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="page">
+        <h2 class="section-title">Resume</h2>
+
+        <div class="glass-card resume-section">
+          <h3>Work Experience</h3>
+          <span>Yet to do</span>
+        </div>
+
+        <div class="glass-card resume-section">
+          <h3>Education</h3>
+          <div class="education-item">
+            <h4>Bachelors of Engineering (B.E)</h4>
+            <div class="institution">
+              RV INSTITUTE OF TECHNOLOGY AND MANAGEMENT
+            </div>
+            <div class="date">2023 - 2027</div>
+          </div>
+          <div class="education-item">
+            <h4>PRE UNIVERSITY</h4>
+            <div class="institution">KLE's S NIJALLINGAPPA PU COLLEGE</div>
+            <div class="date">2021 - 2023</div>
+          </div>
+          <div class="education-item">
+            <h4>SCHOOLING</h4>
+            <div class="institution">SCVK</div>
+            <div class="date">2011 - 2021</div>
+          </div>
+        </div>
+
+        <div class="glass-card resume-section">
+          <h3>Skills & Technologies</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <ul>
+                <li>React</li>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript</li>
+                <li>Tailwind, Bootstrap</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Others</h4>
+              <ul>
+                <li>Git, GitHub Actions</li>
+                <li>C++, C</li>
+                <li>Java, SpringBoot*</li>
+                <li>CI/CD Pipelines*</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Design</h4>
+              <ul>
+                <li>Figma</li>
+                <li>UI/UX Principles</li>
+                <li>Responsive Design</li>
+                <li>Prototyping</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="biodata" class="page">
+        <h2 class="section-title">Bio-Data</h2>
+
         <div class="glass-card">
+          <div class="biodata-grid">
+            <div class="bio-field">
+              <label>Full Name</label><span>Sai Vinyas BS</span>
+            </div>
+            <div class="bio-field">
+              <label>Date of Birth</label><span>February 18, 2005</span>
+            </div>
+            <div class="bio-field">
+              <label>Nationality</label><span>Indian</span>
+            </div>
+            <div class="bio-field"><label>Gender</label><span>Male</span></div>
+            <div class="bio-field">
+              <label>Marital Status</label><span>Single</span>
+            </div>
+            <div class="bio-field">
+              <label>Languages Known</label><span>English, Kannada, Hindi</span>
+            </div>
+            <div class="bio-field">
+              <label>Email Address</label><span>saivinyas18@email.com</span>
+            </div>
+            <div class="bio-field">
+              <label>Phone Number</label><span>+91 8884 180205</span>
+            </div>
+            <div class="bio-field">
+              <label>Address</label><span>Bengaluru, Karnataka, India</span>
+            </div>
+            <div class="bio-field">
+              <label>LinkedIn</label>
+              <span
+                ><a href="https://www.linkedin.com/in/saivinyas" target="_blank"
+                  >linkedin.com/in/saivinyas</a
+                ></span
+              >
+            </div>
+            <div class="bio-field">
+              <label>GitHub</label>
+              <span
+                ><a href="https://github.com/VINYAS-BTW" target="_blank"
+                  >github.com/VINYAS-BTW</a
+                ></span
+              >
+            </div>
+            <div class="bio-field">
+              <label>Portfolio Website</label>
+              <span
+                ><a href="https://saivinyas.vercel.app/" target="_blank"
+                  >saivinyas.dev</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3>Hobbies & Interests</h3>
           <p>
-            "Passionate about creating elegant solutions to complex problems. 
-            He specializes in building responsive, user-centric applications 
-            that make a difference. His work combines technical expertise 
-            with creative innovation to deliver exceptional digital experiences."
-            <br><br><i>- chatgpt</i>
+            Playing Average Cricket | Reading Boring Books | Roaming around the
+            same streets | Getting involved in chaos
           </p>
         </div>
-      </div>
-    </section>
 
-    
-    <section id="resume" class="page">
-      <h2 class="section-title">Resume</h2>
-
-      <div class="glass-card resume-section">
-        <h3>Work Experience</h3>
-        <span>Yet to do</span>
-      </div>
-
-      <div class="glass-card resume-section">
-        <h3>Education</h3>
-        <div class="education-item">
-          <h4>Bachelors of Engineering (B.E)</h4>
-          <div class="institution">RV INSTITUTE OF TECHNOLOGY AND MANAGEMENT</div>
-          <div class="date">2023 - 2027</div>
+        <div class="glass-card">
+          <h3>References</h3>
+          <p>Available upon request...</p>
         </div>
-        <div class="education-item">
-          <h4>PRE UNIVERSITY</h4>
-          <div class="institution">KLE's S NIJALLINGAPPA PU COLLEGE</div>
-          <div class="date">2021 - 2023</div>
-        </div>
-        <div class="education-item">
-          <h4>SCHOOLING</h4>
-          <div class="institution">SCVK</div>
-          <div class="date">2011 - 2021</div>
-        </div>
-      </div>
+      </section>
+    </main>
 
-      <div class="glass-card resume-section">
-        <h3>Skills & Technologies</h3>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h4>Frontend</h4>
-            <ul>
-              <li>React</li>
-              <li>HTML5, CSS3</li>
-              <li>JavaScript</li>
-              <li>Tailwind, Bootstrap</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h4>Backend</h4>
-            <ul>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>RESTful APIs</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h4>Others</h4>
-            <ul>
-              <li>Git, GitHub Actions</li>
-              <li>C++, C</li>
-              <li>Java, SpringBoot*</li>
-              <li>CI/CD Pipelines*</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h4>Design</h4>
-            <ul>
-              <li>Figma</li>
-              <li>UI/UX Principles</li>
-              <li>Responsive Design</li>
-              <li>Prototyping</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <script>
+      const links = document.querySelectorAll(".nav-link");
+      const pages = document.querySelectorAll(".page");
 
-    
-    <section id="biodata" class="page">
-      <h2 class="section-title">Bio-Data</h2>
+      links.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
 
-      <div class="glass-card">
-        <div class="biodata-grid">
-          <div class="bio-field"><label>Full Name</label><span>Sai Vinyas BS</span></div>
-          <div class="bio-field"><label>Date of Birth</label><span>February 18, 2005</span></div>
-          <div class="bio-field"><label>Nationality</label><span>Indian</span></div>
-          <div class="bio-field"><label>Gender</label><span>Male</span></div>
-          <div class="bio-field"><label>Marital Status</label><span>Single</span></div>
-          <div class="bio-field"><label>Languages Known</label><span>English, Kannada, Hindi</span></div>
-          <div class="bio-field"><label>Email Address</label><span>saivinyas18@email.com</span></div>
-          <div class="bio-field"><label>Phone Number</label><span>+91 8884 180205</span></div>
-          <div class="bio-field"><label>Address</label><span>Bengaluru, Karnataka, India</span></div>
-          <div class="bio-field">
-            <label>LinkedIn</label>
-            <span><a href="https://www.linkedin.com/in/saivinyas" target="_blank">linkedin.com/in/saivinyas</a></span>
-          </div>
-          <div class="bio-field">
-            <label>GitHub</label>
-            <span><a href="https://github.com/VINYAS-BTW" target="_blank">github.com/VINYAS-BTW</a></span>
-          </div>
-          <div class="bio-field">
-            <label>Portfolio Website</label>
-            <span><a href="https://saivinyas.vercel.app/" target="_blank">saivinyas.dev</a></span>
-          </div>
-        </div>
-      </div>
+          links.forEach((l) => l.classList.remove("active"));
+          pages.forEach((p) => p.classList.remove("active"));
 
-      <div class="glass-card">
-        <h3>Hobbies & Interests</h3>
-        <p>Playing Average Cricket | Reading Boring Books | Roaming around the same streets | Getting involved in chaos</p>
-      </div>
-
-      <div class="glass-card">
-        <h3>References</h3>
-        <p>Available upon request...</p>
-      </div>
-    </section>
-  </main>
-
-  <script>
-    
-    const links = document.querySelectorAll('.nav-link');
-    const pages = document.querySelectorAll('.page');
-
-    links.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-
-        
-        links.forEach(l => l.classList.remove('active'));
-        pages.forEach(p => p.classList.remove('active'));
-
-       
-        link.classList.add('active');
-        document.getElementById(link.dataset.page).classList.add('active');
+          link.classList.add("active");
+          document.getElementById(link.dataset.page).classList.add("active");
+        });
       });
-    });
 
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
 
-    const themeToggle = document.getElementById('themeToggle');
-const body = document.body;
+      const currentTheme = localStorage.getItem("theme") || "light";
+      if (currentTheme === "dark") {
+        body.classList.add("dark-mode");
+      }
 
-const currentTheme = localStorage.getItem('theme') || 'light';
-if (currentTheme === 'dark') {
-    body.classList.add('dark-mode');
-}
+      themeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
 
-themeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    
-    const theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
-    localStorage.setItem('theme', theme);
-});
+        const theme = body.classList.contains("dark-mode") ? "dark" : "light";
+        localStorage.setItem("theme", theme);
+      });
 
-// Wait for page to fully load
-document.addEventListener('DOMContentLoaded', function() {
-  
-  // Typewriter effect for the subtitle
-  const subtitle = document.querySelector('.subtitle');
-  const text = subtitle.textContent;
-  subtitle.textContent = '';
-  
-  let i = 0;
-  function typeWriter() {
-    if (i < text.length) {
-      subtitle.textContent += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, 100); // Adjust speed (lower = faster)
-    }
-  }
+      document.addEventListener("DOMContentLoaded", function () {
+        const subtitle = document.querySelector(".subtitle");
+        const text = subtitle.textContent;
+        subtitle.textContent = "";
 
-  // Start typing after a short delay
-  setTimeout(typeWriter, 500);
-  
-});
+        let i = 0;
+        function typeWriter() {
+          if (i < text.length) {
+            subtitle.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+          }
+        }
 
-  </script>
-</body>
+        setTimeout(typeWriter, 500);
+      });
+    </script>
+  </body>
 </html>
