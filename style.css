@@ -167,14 +167,14 @@ body.dark-mode .glass-card {
     box-shadow: 0 8px 32px rgba(255, 255, 255, 0.05);
 }
 
-.glass-card:hover {
-    transform: translateY(-5px);
+/* .glass-card:hover {
+    transform: translateY(-1px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-}
+} */
 
-body.dark-mode .glass-card:hover {
+/* body.dark-mode .glass-card:hover {
     box-shadow: 0 12px 40px rgba(255, 255, 255, 0.1);
-}
+} */
 
 .hero {
     text-align: center;
